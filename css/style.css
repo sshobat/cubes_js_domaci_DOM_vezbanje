@@ -1,0 +1,43 @@
+#slider {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+#slider img {
+    width: 100%;
+}
+
+#slider img:nth-child(2),
+#slider img:nth-child(3),
+#slider img:nth-child(4) {
+    display: none;
+}
+
+#thumbnails {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+#thumbnails img {
+    max-width: 100px;
+    margin-right: 25px;
+    border: none;
+    padding: 10px;
+    filter: grayscale(100%);
+}
+
+#thumbnails img.selected {
+    filter: grayscale(0%);
+    border: solid 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
