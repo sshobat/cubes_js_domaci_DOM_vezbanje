@@ -47,6 +47,8 @@ var imagesPaths = [
     './img/horse-2196755_640.jpg'
 ];
 
+
+
 var slider = document.getElementById('slider');
 var thumbnails = document.getElementById('thumbnails');
 

@@ -1,6 +1,7 @@
 #slider {
     width: fit-content;
     margin: 50px auto;
+    display: flex;
 }
 
 #slider img {
